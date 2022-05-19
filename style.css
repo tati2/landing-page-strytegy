@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
 *{
     margin:0;
     padding: 0;
@@ -67,17 +66,17 @@ header{
     max-width: 1366px;
     margin: auto;
     width: 90%;
-    height: 76vh;
-    margin-top: 8rem;    
-    background-image: url(assets/Grupo-10149@2x.png);
-    background-size: 50%;
+    margin-top: 8rem;
+    display: flex;  
+    /* background-image: url(assets/intro-5a9f532702573b5224086542cc897040.png);
     background-repeat: no-repeat;
-    background-position: right bottom;
+    background-position: right;
+    background-size: 56%; */
 }
 
 .info{
-    width: 54%;
-    height: 75vh;
+    width: 50%;
+    height: 65vh;
     display:flex;
     flex-direction: column;
     justify-content: space-evenly;        
@@ -86,10 +85,14 @@ header{
 .title{
     width:100%;
     color:rgb(34, 37, 75);
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size:350%;
+    font-size:320%;
 }
-
+.box-img-intro{
+    width: 50%;
+}
+.box-img-intro img{
+    width: 100%;
+}
 .description{
     width: 55%;
     color:rgb(34, 37, 75)
@@ -152,9 +155,12 @@ header{
 
 .box-button-list:hover{  
     background:#FFCE06;    
-    font-weight:bold;    
+    font-weight:bold;   
 }
 
+.divisao::after{
+    content: "|";
+}
 .text-button{
     width:60%;
     text-align:center;
@@ -305,6 +311,7 @@ header{
     width: 70%;
     min-height: 75vh;
     cursor: pointer; 
+    color:#22254B;  
 }
 
 
